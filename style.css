@@ -1,0 +1,90 @@
+.google:hover {
+    font-weight: bolder;
+    color:lightblue
+}
+.amazon:active {
+    color: red;
+    font-style: italic;
+}
+
+.marktplaats:visited {
+    color: yellow;
+}
+
+.text:focus {
+    font-size: 20px;
+    color: green;
+}
+
+.menu {
+    background-color:darkblue;
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    padding: 0px
+}
+
+ul li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.currentpage {
+    background-color:cornflowerblue
+}
+
+.about:hover {
+    background-color: lightblue;
+}
+
+.input:focus {
+    border: 1px solid aqua;
+    outline: none;
+}
+
+
+body     {
+   
+    text-align:center;
+    background-color: black;
+  }
+  
+  h1         {
+    color:#FFF;
+    font-family: 'oswald', sans-serif;
+    font-weight:700;
+    position:relative;  
+    margin:30px auto;
+    text-transform:uppercase;
+    width:550px;
+    
+  }
+
+  h1::before, h1::after {
+    content: ' ';
+    background: #4a90e2;
+    display: inline;
+    height: 28px;
+    width: 28px;
+    position: absolute
+  }
+
+  h1::before {
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      margin-left: -40px;
+      margin-top: 11px;
+  }
+
+  h1::after {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 11px;
+    margin-left: 10px;
+  }
+   
+
+
+
+  
+ 
